@@ -1,0 +1,44 @@
+span{
+    color:coral; 
+    cursor: pointer; 
+    
+}
+
+p{
+    border: 3px double aqua; 
+    display: inline-block ; 
+  }
+  
+.list-todos-container{
+    .add-todo{
+        input{
+            margin-bottom: 5vh; 
+        }
+    }
+    .list-todo-content{
+        .table{
+            margin: auto; 
+            border: 1px solid white ; 
+            width: 80vw; 
+            border-collapse: collapse;
+                td{
+                    border-right: 1px solid white; 
+
+                }
+                th{
+                    border-bottom: 1px solid white;
+                    color: coral; 
+                }
+                tr{
+                    button{
+                        margin-right: 1vw; 
+                        cursor: pointer; 
+
+                    }
+                }
+
+        }
+
+    }
+}
+

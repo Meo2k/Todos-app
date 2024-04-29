@@ -1,0 +1,26 @@
+table{
+    border: 1px solid white; 
+    border-collapse: collapse;
+    margin: auto; 
+    width: 100%; 
+    tr{
+       border: 1px solid white;
+       th{
+           border: 1px solid white; 
+       }
+       th:nth-child(1){
+           width: 200px; 
+       }
+       td{
+           border: 1px solid white;      
+       }
+    }
+}
+
+.delete-btn{
+    margin-left: 3px; 
+}
+.delete-btn:hover{
+    font-weight: bold;
+    color: coral; 
+}

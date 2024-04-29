@@ -1,0 +1,13 @@
+.user-container{
+    .user-content{
+        margin-top: 5vh; 
+        .child {
+            width: 300px;
+            margin: auto;
+            margin-top: -1px;
+            height: 5vh;
+            border: 1px solid gray;
+            cursor: pointer; 
+        }
+    }
+}
